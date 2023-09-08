@@ -1,4 +1,7 @@
 a=int(input("Enter a number"))
-b=a/2
-print("Int is a type of number")
-print(b)
+if(a%2==0):
+    print("it is an even number")
+    if(a>0):
+        print("Positive number")
+else :
+    print("it is an odd number")

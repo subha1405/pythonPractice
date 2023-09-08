@@ -9,7 +9,11 @@ print(a/b)
 print(a%b)
 
 print(a>b)
+print(a>=b)
 print(a==b)
 print(a!=b)
 print(a<b)
+
+print(not(a<50))
+
 print("hello")
